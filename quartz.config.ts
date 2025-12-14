@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "VioFire",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ru-RU",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -28,29 +28,29 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
+  lightMode: {
+    light: "#f8f5fb",           // очень лёгкий фиолетово-белый фон (мягкий свет тайги)
+    lightgray: "#e7e2ed",       // серо-фиолетовый для границ и фонов
+    gray: "#b8afc9",            // приглушённый серый с фиолетовым подтоном
+    darkgray: "#6a5687",        // тёмно-фиолетово-серый для акцентов
+    dark: "#2d1b4a",            // глубокий тёмно-фиолетовый для основного текста
+    secondary: "#3e6278",       // холодный сине-зелёный (цвет хвои и реки)
+    tertiary: "#718a80",        // приглушённый лесной зелёный (тайга, ели)
+    highlight: "rgba(148, 94, 255, 0.18)", // полупрозрачный фиолетовый хайлайт (свечение духов)
+    textHighlight: "#d4a5ff88", // мягкий фиолетовый маркер текста
+  },
+  darkMode: {
+    light: "#14101f",           // глубокий тёмно-фиолетовый фон (ночь в тайге)
+    lightgray: "#2b2339",       // тёмный серо-фиолетовый для панелей
+    gray: "#5c4e7a",            // средний фиолетово-серый
+    darkgray: "#b8a6d9",        // светлее для хорошей читаемости акцентов
+    dark: "#e8e0ff",            // почти белый текст с лёгким фиолетовым оттенком
+    secondary: "#6890b0",       // холодный голубовато-зелёный (ночные реки и горы)
+    tertiary: "#7a998c",        // тёмный лесной зелёный
+    highlight: "rgba(148, 94, 255, 0.28)", // более насыщенный фиолетовый хайлайт в темноте
+    textHighlight: "#c89aff88", // яркий фиолетовый маркер текста
+  },
+},
     },
   },
   plugins: {
