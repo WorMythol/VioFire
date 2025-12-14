@@ -27,30 +27,30 @@ const config: QuartzConfig = {
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
+colors: {
+  lightMode: {
+    light: "#fffff8",           // слегка желтоватый пергамент
+    lightgray: "#f0e8e0",       // светло-бежевый
+    gray: "#c8c0b0",            // серо-бежевый
+    darkgray: "#706050",        // тёмно-сепия акцент
+    dark: "#282020",            // почти чёрный текст
+    secondary: "#5a4830",       // тёмно-коричневая сепия
+    tertiary: "#908070",        // приглушённый серо-коричневый
+    highlight: "rgba(180, 160, 120, 0.15)", // лёгкое старение бумаги
+    textHighlight: "#e0c08088", // золотисто-сепиевый маркер
+  },
+  darkMode: {
+    light: "#181010",           // тёмно-коричневый фон (старая книга ночью)
+    lightgray: "#282018",       // тёмные страницы
+    gray: "#504840",            // средний серый
+    darkgray: "#a09080",        // светлый бежевый акцент
+    dark: "#f0e8e0",            // кремовый текст
+    secondary: "#8a7040",       // сепия для акцентов
+    tertiary: "#a09078",        // мягкий коричневый
+    highlight: "rgba(200, 180, 140, 0.25)", // тёплое свечение
+    textHighlight: "#d8c09099", // сепиевый маркер
+  },
+},
     },
   },
   plugins: {
