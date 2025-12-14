@@ -28,29 +28,29 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
-  lightMode: {
-    light: "#fafcfd",           // почти белый с лёгким голубым оттенком
-    lightgray: "#e5ebf0",       // холодный светло-серый
-    gray: "#b8c7d0",            // серебристо-серый
-    darkgray: "#5e7a8a",        // серо-голубой акцент
-    dark: "#1e2d3d",            // тёмно-синий текст
-    secondary: "#4a7c9b",       // холодный голубой (ледяной ветер)
-    tertiary: "#8aa7b8",        // приглушённый ледяной серо-голубой
-    highlight: "rgba(150, 200, 240, 0.18)", // лёгкое ледяное свечение
-    textHighlight: "#a0d0ff88", // голубой маркер текста
-  },
-  darkMode: {
-    light: "#0f141a",           // глубокий тёмно-синий фон
-    lightgray: "#1e2a34",       // тёмные холодные панели
-    gray: "#445a6e",            // средний серо-синий
-    darkgray: "#9ab8d0",        // светлый акцент для читаемости
-    dark: "#d8e4f2",            // холодный белый текст
-    secondary: "#6a9bc0",       // яркий ледяной голубой
-    tertiary: "#8ab0c9",        // мягкий ледяной
-    highlight: "rgba(150, 200, 240, 0.3)", // заметное ледяное свечение
-    textHighlight: "#b0d8ff99", // голубой маркер
-  },
-},
+        lightMode: {
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
+          secondary: "#284b63",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff23688",
+        },
+        darkMode: {
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#b3aa0288",
+        },
+      },
     },
   },
   plugins: {
