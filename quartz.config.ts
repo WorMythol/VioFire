@@ -90,12 +90,7 @@ colors: {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-       Plugin.CustomOgImages({
-      colorScheme: "lightMode",
-      width: 1200,
-      height: 630,
-      excludeRoot: false,
-    }),
+      Plugin.CustomOgImages(),
     ],
   },
 }
